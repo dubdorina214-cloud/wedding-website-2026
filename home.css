@@ -6,7 +6,7 @@
 }
 body {
     font-family: "Georgia", serif;
-    background: url('img/foto.jpg') no-repeat center top;
+    background: url('images/foto.jpg') no-repeat center top;
     background-size: cover;
     color: #333;
 }
@@ -147,4 +147,5 @@ footer {
     color: #333;
     border-top: 2px solid #b0004d;
 }
+
 
