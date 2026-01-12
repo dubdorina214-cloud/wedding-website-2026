@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Georgia", serif;
+    background: #fff6fa;
+    color: #333;
+}
+nav {
+    padding: 20px;
+    background: #fff;
+}
+nav a {
+    font-size: 18px;
+    margin-right: 18px;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: 2px solid #b0004d;
+    color: #b0004d;
+    transition: 0.3s;
+}
+nav a:hover {
+    background: #b0004d;
+    color: #fff;
+}
+.main-button {
+    background: #b0004d;
+    color: #fff !important;
+}
+header {
+    text-align: center;
+    padding: 50px 20px;
+    background: #ffe0eb;
+}
+header h1 {
+    font-size: 42px;
+    color: #b0004d;
+}
+header p {
+    font-size: 20px;
+    margin-top: 10px;
+    color: #444;
+}
+.contact-container {
+    max-width: 900px;
+    margin: 40px auto;
+    display: grid;
+    gap: 25px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    padding: 0 20px;
+}
+.contact-card {
+    background: #fff;
+    padding: 25px;
+    border-radius: 16px;
+    text-align: center;
+    border: 2px solid #ffd2e3;
+    transition: 0.3s;
+}
+.contact-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+}
+.contact-card h3 {
+    color: #b0004d;
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+.contact-card p {
+    font-size: 18px;
+    color: #555;
+}

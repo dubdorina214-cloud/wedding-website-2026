@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Конструктор приглашений</title>
+    <link rel="stylesheet" href="Creation.css" />
+</head>
+<body>
+
+<div class="wrapper">
+    <div class="sidebar">
+        <h2>Настройки</h2>
+
+        <label>Выбери фон приглашения</label>
+        <div id="bgOptions" class="bg-options">
+            <img src="img/пустое приглашение 1.jpg" class="bg-thumb" alt="Фон 1" />
+            <img src="img/пустое приглашение 2.jpg" class="bg-thumb" alt="Фон 2" />
+            <img src="img/шаблон 2.jpg" class="bg-thumb" alt="Фон 3" />
+        </div>
+
+        <label>Добавить текст</label>
+        <input type="text" id="textInput" placeholder="Введите текст..." />
+
+        <button id="addText" class="btn">Добавить</button>
+
+        <label>Цвет текста</label>
+        <input type="color" id="textColor" value="#000000" />
+
+        <label>Шрифт</label>
+        <select id="fontSelect">
+            <option value="Georgia">Georgia</option>
+            <option value="'Times New Roman', Times, serif">Times New Roman</option>
+            <option value="Cursive">Рукописный</option>
+            <option value="Serif">Serif Classic</option>
+        </select>
+
+        <label>Добавить дату</label>
+        <input type="date" id="dateInput" />
+
+        <label>Добавить изображение</label>
+        <input type="file" id="imgUpload" accept="image/*" />
+
+        <button id="download" class="btn download">Скачать PNG</button>
+    </div>
+    <div id="canvas" class="canvas">
+    </div>
+
+</div>
+
+<script src="Creation.js"></script>
+<script src="Creation.js"></script>
+
+</body>
+</html>
